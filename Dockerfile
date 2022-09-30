@@ -1,7 +1,7 @@
 FROM node:alpine
 USER root
 
-RUN apk add --no-cache --virtual curl bash expect python3
+RUN apk add curl bash expect python3
 
 SHELL ["/bin/bash", "-c"]
 
