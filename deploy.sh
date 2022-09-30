@@ -4,6 +4,8 @@ source /root/.bashrc
 
 /app/script.exp $2
 
+echo "ls -la ../"
+ls -la ../
 echo "pwd ."
 pwd .
 echo "ls -la /app"
