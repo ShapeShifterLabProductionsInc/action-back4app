@@ -6,6 +6,10 @@ source /root/.bashrc
 
 echo "ls -la ../"
 ls -la ../
+echo "ls -la ../home"
+ls -la ../home
+echo "ls -la ../workflow"
+ls -la ../workflow
 echo "pwd ."
 pwd .
 echo "ls -la /app"
