@@ -38,6 +38,9 @@ pwd
 echo "ls -la ."
 ls -la .
 
+echo "cat .parse.local"
+cat .parse.local
+
 #echo "source /root/.bashrc"
 #source /root/.bashrc
 
