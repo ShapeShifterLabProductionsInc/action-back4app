@@ -2,6 +2,12 @@
 
 source /root/.bashrc
 
+echo "sleep 5s"
+
+date
+sleep 5s
+date
+
 /app/script.exp $2
 
 #echo "ls -la ../"
@@ -17,7 +23,11 @@ source /root/.bashrc
 #echo "ls -la ."
 #ls -la .
 # Need to sleep to allow for script above to complete with input
-sleep 5
+echo "sleep 5s"
+
+date
+sleep 5s
+date
 
 echo "b4a default $1"
 b4a default "$1"
