@@ -38,8 +38,8 @@ pwd
 echo "ls -la ."
 ls -la .
 
-echo "source /root/.bashrc"
-source /root/.bashrc
+#echo "source /root/.bashrc"
+#source /root/.bashrc
 
 echo "b4a default $1"
 b4a default "$1"
