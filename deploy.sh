@@ -41,6 +41,9 @@ ls -la .
 #echo "source /root/.bashrc"
 #source /root/.bashrc
 
+echo "b4a default"
+b4a default
+
 echo "b4a default $1"
 b4a default "$1"
 echo "b4a deploy"
