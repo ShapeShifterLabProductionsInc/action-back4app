@@ -16,6 +16,9 @@ source /root/.bashrc
 #ls -la /app
 #echo "ls -la ."
 #ls -la .
+# Need to sleep to allow for script above to complete with input
+sleep 5
+
 echo "b4a default $1"
 b4a default "$1"
 echo "b4a deploy"
