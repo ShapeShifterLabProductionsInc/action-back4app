@@ -2,6 +2,9 @@
 
 source /root/.bashrc
 
+echo "ls -la /usr/bin/"
+ls -la /usr/bin/
+
 echo "sleep 5s"
 
 date
