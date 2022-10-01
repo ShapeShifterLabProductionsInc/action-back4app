@@ -29,6 +29,15 @@ date
 sleep 5s
 date
 
+echo "pwd"
+pwd
+
+echo "ls -la ."
+ls -la .
+
+echo "cd /github/workspace"
+cd /github/workspace
+
 echo "b4a default $1"
 b4a default "$1"
 echo "b4a deploy"
